@@ -1,0 +1,160 @@
+.goodslist{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    header{
+        height:0.933333rem;
+        background-color: #C1272D;
+        ul{
+            display:flex;
+            text-align:center;
+            justify-content:space-around;
+            li{
+                width:33.3%;
+                a{color:#fff;} 
+                font-size:0.4rem;
+                line-height:0.933333rem;
+            } 
+            .active{
+                background:#fff;
+                a{color:#000};
+            }  
+            .comment{
+                color:#fff;
+            }       
+        }
+    }
+    main{
+        .goods{
+            li{
+                font-size:0.4rem;
+                img{
+                    margin:0 auto;
+                    width:60%;
+                }
+                .goods_a{
+                    border-top:1px solid#ccc;
+                    p{
+                        padding:0.133333rem 0.266667rem;
+                    }
+                    padding-bottom:0.4rem;
+                    background:#ccc3;
+                    .price{
+                        span:first-child{
+                            font-size:30px;
+                            color:red;
+                        }
+                    }
+                }
+                p{
+                    background:#fff; 
+                }
+                .goods_b{
+                    padding-bottom:0.4rem;
+                    background:#ccc3;
+                    p{
+                        padding:0.133333rem 0.266667rem;
+                    }
+
+                    .qty{
+                        span{
+                            border:1px solid#ccc;
+                            display:inline-block;
+                            width:0.4rem;
+                            line-height:0.4rem;
+                            text-align:center;
+                        }
+                    }
+                    .address{
+                        input{
+                            width:6.666667rem;
+                            font-size:0.346667rem;
+
+                        }
+                    }
+                }
+            }
+        }
+        .details{
+            h2{
+                font-size:0.533333rem;
+                padding-left:0.266667rem;
+                line-height:0.8rem;
+                border-bottom:0.013333rem solid#ccc;
+            }
+            ul{
+                li{
+                    font-size:0.4rem;
+                   
+                    p{
+                        padding-left:0.4rem;
+                        border-bottom:0.013333rem solid#cccccc3b; 
+                        line-height:0.8rem;
+
+                    }
+                    
+                }
+            }
+        }
+        
+    }
+    .shade{
+        width: 100%;
+        height:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background: rgba(0,0,0,0.8);
+        position:absolute;
+        left: 0;
+        top: 0;
+        .carss{
+            width: 7.2rem;
+            height: 3.333333rem;
+            display:flex;
+            font-size: 0.4rem;
+            justify-content:center;
+            align-items:center;
+            border-radius:0.373333rem;
+            background: #F9F9F9;
+        }
+    }
+
+    footer{
+        height:0.933333rem;
+        background-color: #F3F3F3;
+    }
+    footer ul{   
+        height:100%;
+        display:flex;
+        justify-content:space-around;
+        li{
+            flex:1;
+            color:#C1272D;
+            display:flex;
+            padding-top:0.133rem;
+            flex-direction:column;
+            justify-content:space-around;
+            align-items:center;
+             &:nth-child(2){
+            background:#C1272D;
+            color:#fff;
+            }
+            &:nth-child(3){
+                background:#000;
+                color:#fff;
+            }
+            /* i{
+                font-size:0.48rem;
+            } */
+            span{
+                font-size:0.4rem;
+            }
+            &.active{
+                background-color: #C1272D;
+                color:#fff;
+            }
+        }
+    }
+    
+}

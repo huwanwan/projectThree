@@ -1,0 +1,24 @@
+#w_header{
+    %conmonStyle{
+        font-size:0.507rem;
+        text-align:center;
+        line-height:1.28rem;
+    }
+    height:1.28rem;
+    display:flex;
+    justify-content:space-between;
+    span{
+        @extend %conmonStyle;
+        &:first-child{
+            width:1.147rem;
+        }
+        &:last-child{
+            width:1.253rem;
+            font-size:0.427rem;
+        }
+    }
+    h1{
+        @extend %conmonStyle;
+        flex:1;
+    }
+}

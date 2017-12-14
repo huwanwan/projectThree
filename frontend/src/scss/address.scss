@@ -1,0 +1,60 @@
+.addressManage{
+    height: 100%;
+    display: flex;
+    background:#F3F5F6;
+    flex-direction:column;
+    #addressHeader{
+        height: 1.2rem;
+        display: flex;
+        position:fixed;
+        width: 100%;
+        align-items:center;
+        padding:0 0.24rem 0 0.24rem;
+        font-size:0.453333rem;
+        background:#FAFAFA;
+        span:nth-child(2){
+           margin-left: 3.365667rem;
+        }
+    }
+    .addressCan{
+        flex:1;
+        .addressNum{
+            background:#fff;
+            height: 3.333333rem;
+            display: flex;
+            padding:0.426667rem 0.293333rem 0 0.293333rem;
+            justify-content:space-between;
+            margin-top: 0.293333rem;
+            .addressCon{
+                display: flex;
+                flex-direction:column;
+                height: 1.933333rem;
+                justify-content:space-between;
+                p{font-size: 0.32rem;};
+            }
+            i{font-size: 0.56rem;}
+        }
+    }
+    .addressBottom{
+        height: 1.333333rem;
+        display:flex;
+        position:fixed;
+        top: 1250px;
+        width: 100%;
+        background:#FAFAFA;
+        align-items:center;
+        border-top: 0.013333rem solid #D7D7D7;
+        .addC{
+            height: 0.933333rem;
+            width: 9.386667rem;
+            background:#FC595A;
+            margin: 0 auto;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            font-size: 0.4rem;
+            font-weight: bold;
+            color:#fff;
+        }
+    }
+}

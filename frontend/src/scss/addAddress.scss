@@ -1,0 +1,56 @@
+.addAddressBox{
+    height: 100%;
+    display: flex;
+    background:#F3F5F6;
+    flex-direction:column;
+    #addAddressHeader{
+        height: 1.2rem;
+        display: flex;
+        align-items:center;
+        padding:0 0.24rem 0 0.24rem;
+        font-size:0.453333rem;
+        margin-bottom:0.293333rem;
+        background:#FAFAFA;
+        span:nth-child(2){
+           margin-left: 3.245667rem;
+        }
+    }
+    .mhAdd{
+        height:1.4rem;
+        background:#fff;
+        display:flex;
+        padding-left:0.293333rem;
+        align-items:center;
+        font-size:0.373333rem;
+        border-bottom:0.013333rem solid #E8E8E8;
+        .formInof{
+            height:1.2rem;
+            width: 574px;
+            margin-left:0.293333rem;
+            font-size:0.373333rem;
+
+        }
+    }
+    .defaultAddress{
+            display:flex;
+            justify-content:space-between;
+            padding-right:0.293333rem;
+            span:last-child{
+                color:#A7A7A7;
+                font-size:0.32rem;
+            }
+        }
+    .addressSave{
+        height: 0.933333rem;
+        width: 9.386667rem;
+        background:#FC595A;
+        margin: 0 auto;
+        display:flex;
+        margin-top:0.613333rem;
+        justify-content:center;
+        align-items:center;
+        font-size: 0.4rem;
+        font-weight: bold;
+        color:#fff;
+    }
+}

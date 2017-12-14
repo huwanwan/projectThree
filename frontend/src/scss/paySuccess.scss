@@ -1,0 +1,43 @@
+.paySuccess{
+    padding-top:1.333333rem;
+    padding-left:0.4rem;
+    p{
+        span{
+            color:red;
+            font-size:0.533333rem;
+        } 
+
+    }
+    h3{
+        text-align:center;
+        line-height:2.666667rem;
+    }
+}
+#conmonfooter{
+    height:1.307rem;
+    background-color: #F3F3F3;
+    ul{
+        height:100%;
+        display:flex;
+        justify-content:space-around;
+        li{
+            flex:1;
+            color:#C1272D;
+            display:flex;
+            padding-top:0.133rem;
+            flex-direction:column;
+            justify-content:space-around;
+            align-items:center;
+            i{
+                font-size:0.48rem;
+            }
+            span{
+                font-size:0.4rem;
+            }
+            &.active{
+                background-color: #C1272D;
+                color:#fff;
+            }
+        }
+    }
+}

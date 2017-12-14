@@ -1,0 +1,81 @@
+.mhCollect{
+    height: 100%;
+    overflow: hidden;
+    display:flex;
+    flex-direction:column;
+    .collectTop{
+        width: 100%;
+        height: 1.2rem;
+        position:fixed;
+        z-index:1000;
+        #collectHeader{
+            height: 1.2rem;
+            display: flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:0 0.24rem 0 0.24rem;
+            font-size:0.43rem;
+            background:#FAFAFA;
+            span:nth-child(2){
+                margin-left: 0.236667rem;
+            }
+        }
+    }
+    .mhLoading{
+        height:18rem;
+        display:flex;
+        opacity:0.5;
+        margin-top: 1.2rem;
+        align-items:center;
+        justify-content:center;
+        font-size: 0.533333rem;
+    }
+    .collectCan{
+        flex:1;
+        background:#F3F5F6;
+        margin-top: 1.4rem;
+        .collectNum{
+            height: 2.64rem;
+            background:#fff;
+            display:flex;
+            border-bottom: 1px solid #E8E8E8; 
+            padding:0 0.24rem 0 0.24rem;
+            justify-content:space-between;
+            align-items:center;
+            .collectImg{
+                width: 2.12rem;
+                height: 2.12rem;
+                border: 1px solid #E8E8E8; 
+                img{
+                    width: 1.98rem;
+                    height: 1.98rem;
+                }
+            }
+            p{
+                display:flex;
+                flex-direction:column;
+                justify-content:space-around;
+                height: 1.813333rem;
+                font-size: 0.346667rem;
+                padding:0 0.24rem 0 0.24rem;
+                span:last-child{
+                    color:#FC5A5A;
+                    font-weight: bold;
+                }
+            }
+            i{
+                font-size: 0.666667rem;
+                color:#FC5A5A;
+            }
+        }
+        .fpTips{
+            height: 1.0rem;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            font-size: 0.32rem;
+            color:#ccc;
+            margin-top: 0.133333rem;
+        }
+    }
+}

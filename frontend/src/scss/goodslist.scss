@@ -1,0 +1,122 @@
+.datalist{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+}
+main{
+    flex:1;
+    overflow-y:auto;
+    position:relative;
+    .tac{
+        width:25%;
+        float:left;
+        height:5.333333rem;
+        position:fixed;
+        font-size:30px;
+        li{
+            border-bottom:1px solid#ccc;text-align:center;  
+            line-height:0.933333rem;
+        }
+        .active{
+            background:#c1272de0;
+            color:#fff;   
+        }
+    }
+    .content{
+        width:75%;
+        float:right;
+        .cc{
+            height:0.933333rem;
+        }
+        .top{   
+            height:0.933333rem;
+            position:fixed;
+            text-align:center;
+            width:100%;
+            background:#c1272de0;
+            color:#fff;
+            overflow:hidden;
+            span{
+                position:absolute;
+                left:1.333333rem;
+                font-size:0.4rem;
+                line-height:0.933333rem;
+                &:nth-child(2){
+                    left:5.333333rem;
+                }
+            }   
+        }
+        ul{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:space-between;
+            li{
+                width:100%;
+                padding:0.053333rem;
+                text-align:center;
+                border:1px solid#ccc;
+                margin-bottom:0.053333rem;
+                font-size:18px;
+                overflow:hidden;
+                .Img{
+                    float:left;
+                    height:100%;
+                    width:50%;
+                    display:flex;
+                    justify-content:center;
+                }
+                .data{
+                    float:right;
+                    width:50%;
+                    font-size:0.346667rem;
+                }
+                p{
+                    text-align:left;
+
+                }
+                .price{
+                    span:first-child{
+                        color:red;
+                        font-size:24px;
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+
+/* .container footer ul{
+    background: #C1272D;
+    color:#fff;
+    font-size:30px;
+    height:0.6875rem;
+    display:flex;
+    justify-content:space-between;
+}
+.container footer ul li{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+
+} */
+
+/* @media screen and (min-width: 992px){
+    body{
+        font-size:18px;
+    }
+
+    footer {
+        font-size:40px;
+    }
+    .container header li i{
+        font-size:75px;
+    }
+    .container footer ul li:nth-child(3) i{
+        font-size:96px;
+    }
+
+} */

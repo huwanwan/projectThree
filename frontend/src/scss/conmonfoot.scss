@@ -1,0 +1,30 @@
+#conmonfooter{
+    height:1.307rem;
+    background-color: #F3F3F3;
+    ul{
+        height:100%;
+        display:flex;
+        justify-content:space-around;
+        li{
+            flex:1;
+            color:#C1272D;
+            display:flex;
+            padding-top:0.133rem;
+            flex-direction:column;
+            justify-content:space-around;
+            align-items:center;
+            i{
+                font-size:0.36rem;
+            }
+            span{
+                font-size:0.36rem !important;
+                color:#000;
+            }
+            &.active{
+                background-color: #C1272D;
+                color:#fff !important;
+                span{ color:#fff !important;}
+            }
+        }
+    }
+}

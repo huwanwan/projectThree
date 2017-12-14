@@ -1,0 +1,28 @@
+.myWallet{
+        height:100%;
+        background:#F3F5F6;
+         #walletHeader{
+            height: 1.2rem; 
+            display: flex;
+            background:#FAFAFA;
+            align-items:center;           
+            padding:0 0.24rem 0 0.24rem;
+            font-size:0.44rem;
+            span:nth-child(2){
+                margin-left:3.466667rem;
+            }
+        }
+        .walletBox{
+            margin-top: 0.306667rem;
+            .walletCan{
+                height: 1.2rem;
+                background:#fff;
+                display: flex;
+                border-bottom: 0.013333rem solid #E8E8E8;
+                align-items:center;
+                padding:0 0.24rem 0 0.24rem;
+                justify-content:space-between;
+                font-size: 0.38rem;
+            }
+        }
+    }

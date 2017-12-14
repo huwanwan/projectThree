@@ -1,0 +1,15 @@
+.footer{
+    background: #C1272D;
+    color:#fff;
+    font-size:30px;
+    height:0.6875rem;
+    display:flex;
+    justify-content:space-between;
+}
+.footer li{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+}

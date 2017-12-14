@@ -1,0 +1,44 @@
+#searchGoods{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    #w_header{
+        height:2.0rem;
+        background-color: #C1272D;
+        display:flex;
+        padding:0rem 0.333rem;
+        justify-content:space-between;
+        align-items:center;
+        >i{
+            width:0.8rem;
+            margin-top:0.427rem;
+            font-size:0.533rem;
+            color:#fff;
+        }
+        p{
+            flex:1;
+            position:relative;
+            input{
+                width:100%;
+                height:0.803rem;
+                border-radius:0.4rem;
+                line-height:0.803rem;
+                background-color: #ECEFE6;
+                padding:0rem 0.267rem;
+                font-size:0.373rem;
+            }
+            i{
+                position:absolute;
+                font-size:0.4rem;
+                color:#666666;
+                right:0.467rem;
+                top:0.667rem;
+            }
+        }
+        >span{
+            color:#ffffff;
+            margin-top:0.387rem;
+        }
+    }
+    
+}

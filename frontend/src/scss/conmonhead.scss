@@ -1,0 +1,50 @@
+#conmonheader{
+    height:1.733rem;
+    padding-top:0.427rem;
+    display:flex;
+    background-color: #C1272D;
+    justify-content:space-between;
+    h1{
+        height:100%;
+        font-size:0.48rem;
+        padding-left:0.3rem;
+        line-height:1.38rem;
+        color:#fff;
+        margin-right:0.8rem;
+    }
+    div{
+        flex:1;
+        height:0.933rem;
+        position:relative;
+        margin-top:0.187rem;
+        padding-top:0.133rem;
+        display:flex;
+        i{
+            font-size:0.4rem;
+            position:absolute;
+            color:#ffffff;
+            top:0.347rem;
+            left:0.267rem;
+        }
+        input{
+            width:5.947rem;
+            height:0.8rem;
+            font-size:0.32rem;
+            color:#fff;
+            padding-left:0.853rem;
+            border-radius:0.4rem;
+            background-color: #CC3333;
+            caret-color:#ffffff;
+        }
+    }
+    p{
+        width:0.8rem;
+        margin:0rem 0.3rem 0rem 0.853rem;
+        padding-top:0.24rem;
+        img{
+            width:0.88rem;
+            height:0.88rem;
+            border-radius:50%;
+        }
+    }
+}
